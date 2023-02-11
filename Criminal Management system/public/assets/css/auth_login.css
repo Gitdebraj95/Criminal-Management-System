@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@200&family=Nanum+Gothic&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+        background-image: linear-gradient(rgba(0, 0, 100, 0.7), rgba(0, 0, 100, 0.7)), url("../images/police.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    font-family: 'Karla', sans-serif;
+    color: #636383;
+    /*BODY*/
+    line-height: 1.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #0d6efd;
+}
+.sign-form{
+    border: 1px solid #636383;
+    border-radius: 20px;
+    width: 70%;
+    background-color: white;
+}
+.left{
+    width:50%;
+    float:left;
+    background-color: white;
+    border-left-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+}
+.innerbox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box{
+    padding: 0 10px;
+    height: 37px;
+    width: 25rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+.right{
+    width:50%;
+    float:right;
+}
+.right img{
+    height: 40.7rem;
+    width: 33.9rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.submit-btn{
+    color: white;
+    background-color: #0d6efd;
+    padding: 0.5rem 1rem;
+    border-color: white;
+    border-radius: 5px;
+}
